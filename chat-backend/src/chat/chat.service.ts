@@ -7,7 +7,6 @@ import { SendMessageDto } from "./dto/send-message.dto";
 import { CreateGroupDto } from "./dto/create-group.dto";
 import { Message } from "src/entities/message.entity";
 
-
 @Injectable()
 export class ChatService {
     constructor(
